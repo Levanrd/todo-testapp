@@ -1,0 +1,35 @@
+{
+  "name": "vue-express-mongo",
+  "version": "1.0.0",
+  "description": "This is a vue project",
+  "main": "index.js",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve --mode development",
+    "local": "vue-cli-service serve --mode local",
+    "start": "vue-cli-service serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue"
+  ],
+  "author": "ShellNoob",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "sass": "^1.79.5",
+    "sass-loader": "^10.5.2",
+    "sweetalert2": "^11.14.3",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuetify": "^2.7.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
+}
